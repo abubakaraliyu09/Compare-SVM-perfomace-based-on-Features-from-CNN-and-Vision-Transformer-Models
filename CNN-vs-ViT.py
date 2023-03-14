@@ -16,8 +16,9 @@ from keras.applications.vgg16 import VGG16, preprocess_input as vgg_preprocess
 from keras.models import Model
 from vit_keras import vit, utils
 import matplotlib.pyplot as plt
+
 # set image directory
-image_dir = './Alzheimer/Alzheimer/Alzh-aug/test'
+image_dir = './data'
 
 # set model names
 model_names = ['VGG-16', 'ResNet-50', 'DenseNet-169', 'ViT-B16', 'ViT-B32']
