@@ -31,13 +31,21 @@ Before running the script, ensure you have all the necessary packages installed 
 The script expects an image directory './data' where the subdirectories are class labels. Each subdirectory should contain the images for that class. For example, a dataset with two classes 'cats' and 'dogs' should have the following structure:
 
 data/
+
 ├── cats/
+
 │   ├── cat001.jpg
+
 │   ├── cat002.jpg
+
 │   └── ...
+
 └── dogs/
+
     ├── dog001.jpg
+    
     ├── dog002.jpg
+    
     └── ...
 
 To run the script:
